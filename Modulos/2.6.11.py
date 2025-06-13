@@ -4,4 +4,4 @@ dura = int(input("Duración del evento (minutos): "))
 mins = mins + dura 
 hour = hour + mins // 60 
 mins = mins % 60 
-print(hour, ":", mins, sep='')
+print(hour, ":", mins, sep='')  
